@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Pessoal - Kaio Côrtes do Valle</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-card {
+            width: 450px;
+            background-color: #ffffff;
+            border-radius: 10px;
+ 
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            border: 1px solid #ddd;
+            padding: 30px;
+           
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #333;
+            margin: 10px 0 5px 0;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #555;
+            margin: 0;
+        }
+        
+        .bio {
+            font-size: 15px;
+            color: #444;
+            line-height: 1.5; /* Espaçamento entre as linhas */
+            margin: 20px 0;
+        }
+
+        .skills {
+            margin: 20px 0;
+        }
+
+        .skill-tag {
+            display: inline-block;
+            background-color: #ffcdd2; /* Um vermelho claro para o fundo */
+            color: #b71c1c; /* Um vermelho mais escuro para o texto */
+            padding: 6px 12px;
+            border-radius: 16px; /* Deixa a tag arredondada */
+            font-size: 13px;
+            font-weight: 500;
+            margin: 5px;
+        }
+
+        .social-links {
+            margin: 20px 0 15px 0;
+        }
+
+        .social-links a {
+            text-decoration: none; /* Remove o sublinhado */
+            color: #b71c1c; /* Cor vermelha para os links */
+            font-size: 14px;
+            margin: 0 10px;
+        }
+
+        .social-links a:hover {
+            color: #000;
+        }
+        
+        .matricula {
+            font-size: 12px;
+            color: #999;
+            margin-top: 25px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        
+        <h1>Kaio Côrtes do Valle</h1>
+        
+        <p class="subtitle">Estudante de Ciência da Computação</p>
+        
+        <p class="bio">
+            Olá! Sou aluno da Universidade Estácio de Sá e estou no segundo semestre. Estou focado na minha jornada de tecnologia.
+            Meu objetivo profissional é me tornar um desenvolvedor de software, 
+            aprendendo sobre algoritmos, estruturas de dados e como criar soluções eficientes.
+        </p>
+        
+        <div class="skills">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">C</span>
+        </div>
+        
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+        </div>
+        
+        <p class="matricula">Matrícula: 202502281943</p>
+        
+    </div>
+
+</body>
+</html>
